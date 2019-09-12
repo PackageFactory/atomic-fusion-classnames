@@ -1,6 +1,6 @@
 {
-    "name": "packagefactory/atomicfusion",
-    "description": "Prototypes that help implementing atomic-design and a component-architecture in Neos.Fusion",
+    "name": "packagefactory/atomicfusion-classnames",
+    "description": "ÈEl Helper for rendering of classNames in atomic fusion",
     "type": "neos-package",
     "license": "GPL-3.0",
     "authors": [
@@ -16,16 +16,16 @@
         }
     ],
     "require": {
-        "neos/fusion": "^3.3 || ^4.0 || dev-master"
+        "neos/fusion": "^3.3 || ^4.0 || ^5.0 || dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "PackageFactory\\AtomicFusion": "Classes/"
+        "psr-4": {
+            "PackageFactory\\AtomicFusion\\ClassNames\\": "Classes/"
         }
     },
     "extra": {
         "neos": {
-            "package-key": "PackageFactory.AtomicFusion"
+            "package-key": "PackageFactory.AtomicFusion.ClassNames"
         },
         "applied-flow-migrations": [
             "TYPO3.FLOW3-201201261636",
