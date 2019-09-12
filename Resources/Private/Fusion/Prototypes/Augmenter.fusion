@@ -1,6 +1,0 @@
-prototype(PackageFactory.AtomicFusion:Augmenter) < prototype(PackageFactory.AtomicFusion:Component) {
-	@class = 'PackageFactory\\AtomicFusion\\FusionObjects\\AugmenterImplementation'
-
-	fallbackTagName = "div"
-	content = ${value}
-}

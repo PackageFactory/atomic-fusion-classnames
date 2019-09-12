@@ -1,9 +1,4 @@
-
 Neos:
-  Neos:
-    fusion:
-      autoInclude:
-        PackageFactory.AtomicFusion: true
   Fusion:
     defaultContext:
-      'AtomicFusion': 'PackageFactory\AtomicFusion\Eel\AtomicFusionHelper'
+      'AtomicFusion': 'PackageFactory\AtomicFusion\ClassNames\Eel\AtomicFusionHelper'

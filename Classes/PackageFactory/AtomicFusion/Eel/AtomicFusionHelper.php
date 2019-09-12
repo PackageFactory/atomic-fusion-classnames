@@ -1,8 +1,8 @@
 <?php
-namespace PackageFactory\AtomicFusion\Eel;
+namespace PackageFactory\AtomicFusion\ClassNames\Eel;
 
 /**
- * This file is part of the PackageFactory.AtomicFusion package
+ * This file is part of the PackageFactory.AtomicFusion.ClassNames package
  *
  * (c) 2016
  * Wilhelm Behncke <wilhelm.behncke@googlemail.com>
